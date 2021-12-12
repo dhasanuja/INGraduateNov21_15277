@@ -1,0 +1,76 @@
+
+      html {
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        position: relative;
+      }
+      header {
+        height: 150px;
+      }
+
+      header img {
+        width: 100px;
+        position: absolute;
+        right: 32px;
+        top: 32px;
+      }
+
+      h1 {
+        font-size: 40px;
+        line-height: 130px;
+        margin: 0 0 0 30px;
+      }
+
+      main {
+        background: rgb(241, 219, 219);
+      }
+
+      article {
+        padding: 20px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 2;
+      }
+
+      iframe {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 100%;
+      }
+
+      .images {
+        clear: left;
+        padding: 40px 0;
+        background: red;
+      }
+
+      .images a {
+        width: 25%;
+        display: block;
+        float: left;
+      }
+
+      .images img {
+        max-width: 100%;
+      }
+
+      .adjust {
+        clear: both;
+      }
+
+      .panda img {
+        display: block;
+        max-width: 100%;
+      }
+    
