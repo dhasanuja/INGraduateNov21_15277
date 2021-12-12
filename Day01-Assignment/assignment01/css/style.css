@@ -1,0 +1,32 @@
+body{
+
+    background-color: #557A95;
+
+    color:#1F2833;
+    
+        margin:50px 0px; padding:0px;
+        text-align:center;
+    
+    
+
+}
+div.form-example {
+    display: table-row;
+    text-align: center;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+section{
+    text-align: center;
+    
+}
+form {
+    display: inline-block;
+}
