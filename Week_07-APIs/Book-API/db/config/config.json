@@ -1,0 +1,22 @@
+{
+
+  "development": {
+
+    "username": "postgres",
+
+    "password": "root",
+
+    "database": "dev_apidb3",
+
+    "host": "127.0.0.1",
+
+    "dialect": "postgres",
+
+    "protocol": "postgres",
+
+    "port": 5432
+
+  }
+
+}
+
