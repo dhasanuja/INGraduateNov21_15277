@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $("document").ready(function(){
+         $("#box").on("click",whenMouseIsClocked);
+         $("#box").on("mouseleave",whenMouseLeaves);
+         function whenMouseIsClocked(){
+             $("#box").html("<h4>Hey you clicked</h4>")
+         }
+         function whenMouseLeaves(){
+            $("#box").html("<h4>Hey you where are you going</h4>")
+         }
+        });
+    </script>
+    <style>
+        #box{
+            height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+
+    </div>
+</body>
+</html>
